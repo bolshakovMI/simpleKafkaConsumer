@@ -12,6 +12,9 @@ public class KafkaConsumerConfig {
     public String groupId;
 
 
+
+
+
     
     @Bean
     public String groupId() {
