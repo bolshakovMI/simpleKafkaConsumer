@@ -11,6 +11,8 @@ public class KafkaConsumerConfig {
     @Value("${spring.kafka.consumer.group-id}")
     public String groupId;
 
+
+    
     @Bean
     public String groupId() {
         return groupId;
